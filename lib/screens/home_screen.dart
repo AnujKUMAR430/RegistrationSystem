@@ -23,7 +23,7 @@ class _HomeScreenState extends State<HomeScreen> {
         actions: [
           IconButton(
               onPressed: () {
-                showSearch(context: context, delegate: SearchUser());
+                showSearch(context: context, delegate: Search());
               },
               icon: const Icon(Icons.search)),
           IconButton(
